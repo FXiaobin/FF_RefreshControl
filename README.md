@@ -12,7 +12,6 @@
         weakSelf.currentPage = 0;
         [weakSelf queryData];
     }];
-    
     // 尾刷新
     WealthRefreshFooter *footer = [WealthRefreshFooter footerWithRefreshingBlock:^{
         weakSelf.isRefreshing = NO;
