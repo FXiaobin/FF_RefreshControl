@@ -1,0 +1,18 @@
+//
+//  RefreshControl-PrefixHeader.pch
+//  FF_RefreshControl
+//
+//  Created by fanxiaobin on 2017/4/12.
+//  Copyright © 2017年 fanxiaobin. All rights reserved.
+//
+
+#ifndef RefreshControl_PrefixHeader_pch
+#define RefreshControl_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#import "Macro.h"
+
+#endif /* RefreshControl_PrefixHeader_pch */
