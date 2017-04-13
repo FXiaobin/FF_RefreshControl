@@ -13,8 +13,7 @@
         [weakSelf queryData];
     }];
     
-    
-  // 尾刷新
+    // 尾刷新
     WealthRefreshFooter *footer = [WealthRefreshFooter footerWithRefreshingBlock:^{
         weakSelf.isRefreshing = NO;
         weakSelf.currentPage++;
